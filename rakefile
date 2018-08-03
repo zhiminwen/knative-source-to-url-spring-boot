@@ -58,6 +58,7 @@ namespace :knative do
       file = "#{target_dir}/springboot_build.yaml"
       execute %Q(kubectl delete -f #{file} || echo not found)
       
+      build_name = "build-springboot"
       content = <<~EOF
         apiVersion: build.knative.dev/v1alpha1
         kind: Build
