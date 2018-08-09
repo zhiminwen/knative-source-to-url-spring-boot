@@ -1,5 +1,4 @@
 /target/
-!.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
 .apt_generated
@@ -29,4 +28,4 @@
 java_cacerts*
 mycluster.icp*
 rakefile
-
+*.rb
