@@ -26,3 +26,7 @@
 
 .env
 .mvn
+java_cacerts*
+mycluster.icp*
+rakefile
+

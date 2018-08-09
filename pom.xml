@@ -41,7 +41,6 @@
 								<to>
 									<image>mycluster.icp:8500/default/knative-springboot:v1</image>
 								</to>
-								<allowInsecureRegistries>true</allowInsecureRegistries>
 						</configuration>
 					</plugin>
         </plugins>
